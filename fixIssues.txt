@@ -1,0 +1,4 @@
+fix strikes reading null for color on retry
+
+winner comes up if you click the same letter over and over
+n

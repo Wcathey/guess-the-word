@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Word</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="game.js" type="module"></script>
+</head>
+<body>
+    <header class="page-top">
+    <h1 id="game-title">Guess The Word</h1>
+
+<div class="game-values">
+    <h2>Score: <span id="score">0</span></h2>
+    <h2>Strikes: <span class="strikes">
+        <span id="strike-0" class="strikes">X</span>
+        <span id="strike-1" class="strikes">X</span>
+        <span id="strike-2" class="strikes">X</span>
+        <span id="strike-3" class="strikes">X</span>
+        <span id="strike-4" class="strikes">X</span>
+    </span></h2>
+</div>
+
+
+    </header>
+
+    <div class="game-container">
+        <div id="letter-container"></div>
+        <div id="keyboard"></div>
+        <div id="end-game-prompt"></div>
+        <div class="game-buttons">
+        <button id="new-word">Generate New Word</button>
+        <button id="retry">Try Again</button>
+        </div>
+    </div>
+
+</body>
+</html>
