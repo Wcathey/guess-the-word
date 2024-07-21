@@ -78,7 +78,7 @@ async function startGame() {
     let word = await loadWord();
     currentWord = word.split('')
     createLetterSpaces(currentWord)
-    console.log(currentWord);
+
 
 }
 
@@ -132,7 +132,7 @@ const resetGame = () => {
     endGamePrompt.innerText = '';
 
     for(let i = 0; i < strikes; i++) {
-        console.log(strikes)
+        
         document.getElementById(`strike-${i}`).style.color = 'rgb(122, 118, 118)'
     }
 
